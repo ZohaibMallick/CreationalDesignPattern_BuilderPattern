@@ -1,6 +1,12 @@
 # CreationalDesignPattern_BuilderPattern
 **This project implements a Pizza Ordering System using the Builder Pattern, a creational design pattern that allows the construction of complex objects step-by-step.**
 #### The Builder Pattern is like a step-by-step recipe for making something complicated. It breaks down the process into smaller, manageable steps, so we can easily build different versions of that thing. This is helpful when there are many options or parts to choose from.
+*Classes:
+  - Pizza: The product with attributes like size and ingredients (cheese, pepperoni, bacon).
+  - PizzaBuilder: Provides methods to set properties and build a Pizza object.
+  - Director: Optionally used to create specific types of pizzas using the builder.
+  *Usage:
+    - The builder pattern enables flexible pizza creation through method chaining. The Director offers predefined pizza options, making the code modular, readable, and easy to maintain.
 
 
 ![PizaaOrderUML_Diagram](https://github.com/user-attachments/assets/b22c6f54-c829-4ee3-9654-7f8c20b257a6)
